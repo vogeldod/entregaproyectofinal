@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* modificadores */
+
+.imagenes {
+    border-radius: 3mp;
+    border: solid 5px rgb(219, 186, 219);
+}
+
+.fondo {
+    background-color: rgb(250,208,187);
+}
+
+.fondoNosotros {
+    background-color: rgb(255,227,227);
+}
+
+.fondoNav {
+    background-color: rgb(179,164,164);
+}
+
+.botones {
+    background-color: rgb(219,186,219);
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+.titulosImagenes {
+    background-color:rgb(179,164,164);
+    color: darkorchid;
+    padding: 10px;
+}
+
+.tamanioGaleria { 
+    max-width: 283px;
+}
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.mapa {
+    width: 100%;
+}
+
+/* Clases */
+
+bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+
+#video {
+    grid-area: video;
+}
+
+#fotosGaleria {
+    grid-area: fotos;
+}
+

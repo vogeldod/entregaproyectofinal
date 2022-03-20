@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* modificadores */
+.imagenes {
+  border-radius: 3mp;
+  border: solid 5px #dbbadb;
+}
+
+.fondo {
+  background-color: #fad0bb;
+}
+
+.fondoNosotros {
+  background-color: #ffe3e3;
+}
+
+.fondoNav {
+  background-color: #b3a4a4;
+}
+
+.botones {
+  background-color: #dbbadb;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.titulosImagenes {
+  background-color: #b3a4a4;
+  color: darkorchid;
+  padding: 10px;
+}
+
+.tamanioGaleria {
+  max-width: 283px;
+}
+
+.mensaje {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.mapa {
+  width: 100%;
+}
+
+/* Clases */
+bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+#video {
+  grid-area: video;
+}
+
+#fotosGaleria {
+  grid-area: fotos;
+}
+
+/*# sourceMappingURL=destino.css.map */
